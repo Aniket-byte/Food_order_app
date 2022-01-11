@@ -1,0 +1,27 @@
+.card {
+    box-shadow: 0 4px 10px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 7px;
+}
+
+.card > .card-head {
+    padding: 16px;
+    background-color: var(--danger);
+    color: white;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.card-head > h3 {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+
+.card > .card-body {
+    padding: 16px;
+    background-color: white;
+    border: 1px solid var(--light-gray);
+    border-top: 0;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}

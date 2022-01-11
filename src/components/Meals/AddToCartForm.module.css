@@ -1,0 +1,21 @@
+.inc-btns {
+    display: flex;
+    align-items: center;
+}
+
+.inc-btns > span:nth-child(even) {
+    font-weight: 500;
+    color: var(--danger);
+    margin: 0 10px;
+}
+
+.inc-btns > .qty-change-btn {
+    width: 35px;
+    height: 35px;
+    border: 1px solid var(--light-gray);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

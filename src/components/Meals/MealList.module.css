@@ -1,0 +1,12 @@
+.meal-list {
+    margin: 0;
+    padding-left: 0;
+}
+
+.meal-list > li {
+    list-style-type: none;
+}
+
+.meal-list > li:not(:last-child) {
+    border-bottom: 1px solid var(--light-gray);
+}
